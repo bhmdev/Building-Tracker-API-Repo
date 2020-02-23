@@ -3,7 +3,7 @@ class BuildingsController < OpenReadController
 
   # GET /buildings
   def index
-    @buildings = current_user.buildings.all
+    @buildings = Building.all
 
     render json: @buildings
   end
