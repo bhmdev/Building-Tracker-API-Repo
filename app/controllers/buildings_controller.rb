@@ -1,4 +1,4 @@
-class BuildingsController < ApplicationController
+class BuildingsController < OpenReadController
   before_action :set_building, only: [:show, :update, :destroy]
 
   # GET /buildings
@@ -15,7 +15,7 @@ class BuildingsController < ApplicationController
 
   # POST /buildings
   def create
-    @building = current_user.buildings.new(building_params)
+      @building = current_user.buildings.new(building_params)
 
     if @building.save
       render json: @building, status: :created, location: @building
