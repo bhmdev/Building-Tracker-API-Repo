@@ -5,7 +5,7 @@ class BuildingsController < OpenReadController
 
   # GET /buildings
   def index
-    @buildings = Buildings.all
+    @buildings = Building.all
     # Building.where(:user_id => current_user.id)
 
     render json: @buildings
@@ -13,7 +13,7 @@ class BuildingsController < OpenReadController
 
   # GET /buildings/1
   def show
-    render json: @building
+    render json: @buildings
   end
 
   # POST /buildings
@@ -42,6 +42,7 @@ class BuildingsController < OpenReadController
   end
 
   private
+
   # Use callbacks to share common setup or constraints between actions.
   def set_building
     @building = current_user.buildings.find(params[:id])
@@ -49,6 +50,7 @@ class BuildingsController < OpenReadController
 
   # Only allow a trusted parameter "white list" through.
   def building_params
-    params.require(:building).permit(:address, :price, :built_date, :sq_feet)
+    params.require(:building).permit(:address, :price, :built_date, :sq_feet,
+                                     :user_id)
   end
 end
