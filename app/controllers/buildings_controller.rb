@@ -3,7 +3,8 @@ class BuildingsController < OpenReadController
 
   # GET /buildings
   def index
-    @buildings = Building.all
+    @buildings = Buildings.all
+    # Building.where(:user_id => current_user.id)
 
     render json: @buildings
   end
@@ -15,7 +16,7 @@ class BuildingsController < OpenReadController
 
   # POST /buildings
   def create
-      @building = current_user.buildings.new(building_params)
+    @building = current_user.buildings.new(building_params)
 
     if @building.save
       render json: @building, status: :created, location: @building
@@ -39,13 +40,13 @@ class BuildingsController < OpenReadController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_building
-      @building = current_user.buildings.find(params[:id])
+  # Use callbacks to share common setup or constraints between actions.
+  def set_building
+    @building = current_user.buildings.find(params[:id])
     end
 
-    # Only allow a trusted parameter "white list" through.
-    def building_params
-      params.require(:building).permit(:address, :price, :built_date, :sq_feet)
+  # Only allow a trusted parameter "white list" through.
+  def building_params
+    params.require(:building).permit(:address, :price, :built_date, :sq_feet)
     end
 end
