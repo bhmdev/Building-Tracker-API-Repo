@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class BuildingsController < OpenReadController
-  before_action :set_building, only: [:show, :update, :destroy]
+  before_action :set_building, only: %i[show update destroy]
 
   # GET /buildings
   def index
@@ -43,10 +45,10 @@ class BuildingsController < OpenReadController
   # Use callbacks to share common setup or constraints between actions.
   def set_building
     @building = current_user.buildings.find(params[:id])
-    end
+  end
 
   # Only allow a trusted parameter "white list" through.
   def building_params
     params.require(:building).permit(:address, :price, :built_date, :sq_feet)
-    end
+  end
 end
