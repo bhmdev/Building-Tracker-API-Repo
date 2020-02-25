@@ -18,7 +18,7 @@ class BuildingsController < OpenReadController
 
   # POST /buildings
   def create
-    @building = current_user.buildings.new(building_params)
+    @building = current_user.buildings.build(building_params)
 
     if @building.save
       render json: @building, status: :created, location: @building
