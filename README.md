@@ -5,9 +5,9 @@ Building Tracker README: Back End
 
 This application is designed to track potential investment opportunities for commercial real estate investors.
 
-It's broken down by building type, cost, sqft, and date built.
+It's broken down by Building Type, Cost, Sq Ft, and Date built.
 
-The front end is hosted on [github pages] (https://github.com/bhmdev/Building-Tracker-FE), and the backend API is hosted on [heroku] (https://building-tracker-api.herokuapp.com/).
+The front end is hosted on [github pages](https://github.com/bhmdev/Building-Tracker-FE), and the backend API is hosted on [heroku](https://building-tracker-api.herokuapp.com/).
 
 **Technologies Used**
 <ol>
@@ -46,7 +46,7 @@ Front-end:
 
 **Entry Relationship Diagram (ERD)**
 
-[ERD is show here] (https://imgur.com/a/pk47Tgi)
+[ERD is show here](https://imgur.com/a/pk47Tgi)
 
 
 -**Unsolved Issues & Future Goals**
