@@ -43,7 +43,7 @@ Front-end:
 6. As a user I want to be able to sign-out of my account so I can keep people away from the buildings I'm thinking of pitching.
 7. As a user I want to be able to sign up with my email address to create a login/password.
 8. As a user I would like to logout and login as needed.
-9. As a user i want CRUD functionality on all buildings so i can keep me records correct.
+9. As a user I want CRUD functionality on all buildings so i can keep me records correct.
 
 **Entry Relationship Diagram (ERD)**
 
