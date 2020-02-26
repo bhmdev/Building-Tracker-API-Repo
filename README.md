@@ -21,7 +21,7 @@ Back-end:
 <li>Ruby</li>
 <li>Ruby on Rails</li>
 <li>Posgres</li>
-
+<br>
 Front-end:
 <li>HTML5</li>
 <li>CSS3</li>
