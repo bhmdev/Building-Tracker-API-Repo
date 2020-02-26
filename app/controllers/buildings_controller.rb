@@ -39,6 +39,8 @@ class BuildingsController < OpenReadController
   # DELETE /buildings/1
   def destroy
     @building.destroy
+
+    head :no_content
   end
 
   private
