@@ -1,4 +1,4 @@
-Project 2 README
+Building Tracker README: Back End
 
 
 **Building Tracker**
@@ -7,13 +7,26 @@ This application is designed to track potential investment opportunities for com
 
 It's broken down by building type, cost, sqft, and date built.
 
-The front end is hosted on github pages, and the backend API is hosted on heroku.
+The front end is hosted on [github pages] (https://github.com/bhmdev/Building-Tracker-FE), and the backend API is hosted on [heroku] (https://building-tracker-api.herokuapp.com/).
 
 **Technologies Used**
+<ol>
 
-HTML
-SCSS
-JS
+Back-end:
+<li>Ruby</li>
+<li>Ruby on Rails</li>
+<li>Posgres</li>
+
+Front-end:
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript (ES6)</li>
+<li>SASS</li>
+<li>Bootstrap</li>
+<li>jQuery</li>
+<li>AJAX</li>
+<li>Git/GitHub</li>
+</ol>
 
 **Wire Frames**
 
@@ -27,10 +40,19 @@ JS
 4. As a user I would want to have the option to change my password as needed
 5. As a user I want to be able to track the buildings I want to look potentailly pitch.
 6. As a user I want to be able to sign-out of my account so I can keep people away from the buildings I'm thinking of pitching.
-7. As a user I want to be able to sign up with my email address to create a login/password format from the readings).
+7. As a user I want to be able to sign up with my email address to create a login/password.
 8. As a user I would like to logout and login as needed.
 9. As a user i want CRUD functionality on all buildings so i can keep me records correct.
 
-**Development Process**
+**Entry Relationship Diagram (ERD)**
 
-Verison 1: - TBD
+[ERD is show here] (https://imgur.com/a/pk47Tgi)
+
+
+-**Unsolved Issues & Future Goals**
+
+- I would love to connect at 3rd-party API that would allow me to pick and store live buildings in the city I am in (google maps) and store them in my tracker.
+
+**Author**
+
+Brendan M.
