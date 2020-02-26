@@ -3,7 +3,7 @@
 
 **Important Links**
 <br>
-[FrontEnd Repo](https://github.com/bhmdev/Building-Tracker-FE/blob/master/README.md)
+[FrontEnd Repo](https://github.com/bhmdev/Building-Tracker-FE)
 
 **Building Tracker**
 
