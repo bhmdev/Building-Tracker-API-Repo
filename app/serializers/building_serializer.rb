@@ -5,6 +5,6 @@ class BuildingSerializer < ActiveModel::Serializer
   has_one :user
 
   def editable
-  scope == object.user
+    scope == object.user
   end
 end

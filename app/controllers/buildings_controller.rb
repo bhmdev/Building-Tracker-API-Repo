@@ -5,8 +5,8 @@ class BuildingsController < OpenReadController
 
   # GET /buildings
   def index
-    @buildings = Building.all
-    # Building.where(:user_id => current_user.id)
+      # @buildings = Building.all
+    @buildings = current_user.buildings
 
     render json: @buildings
   end
