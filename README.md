@@ -26,6 +26,7 @@ Front-end:
 <li>jQuery</li>
 <li>AJAX</li>
 <li>Git/GitHub</li>
+<li>Handlebars</li>
 </ol>
 
 **Wire Frames**
@@ -49,7 +50,7 @@ Front-end:
 [ERD is show here](https://imgur.com/a/pk47Tgi)
 
 
--**Unsolved Issues & Future Goals**
+**Unsolved Issues & Future Goals**
 
 - I would love to connect at 3rd-party API that would allow me to pick and store live buildings in the city I am in (google maps) and store them in my tracker.
 
