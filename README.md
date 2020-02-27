@@ -21,17 +21,6 @@ Back-end:
 <li>Ruby</li>
 <li>Ruby on Rails</li>
 <li>Posgres</li>
-<br>
-Front-end:
-<li>HTML5</li>
-<li>CSS3</li>
-<li>JavaScript (ES6)</li>
-<li>SASS</li>
-<li>Bootstrap</li>
-<li>jQuery</li>
-<li>AJAX</li>
-<li>Git/GitHub</li>
-<li>Handlebars</li>
 </ol>
 
 **Wire Frames**
